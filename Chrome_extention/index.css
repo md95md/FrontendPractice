@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    
+    min-width: 400px;
 }
 
 input {
@@ -31,4 +31,18 @@ button:hover {
 
 button:active {
   transform: scale(0.95);
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin-top: 8px;
+  
+}
+
+li a {
+  color: #417193;
 }
