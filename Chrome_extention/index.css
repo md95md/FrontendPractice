@@ -19,9 +19,14 @@ button {
     margin-top: 5px;
     color: white;
     background-color:  #417193;
-    border: none;
+    border: 1px solid #417193;
     padding: 8px 20px;
     transition: background-color 0.2s, transform 0.1s;
+}
+
+#delete-btn {
+  background: white;
+  color: #417193;
 }
 
 button:hover {
